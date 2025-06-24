@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart'
+
 class Consulta{
   final int? id;
   final int pacienteId;

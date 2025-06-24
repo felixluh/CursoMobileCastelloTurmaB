@@ -17,9 +17,23 @@ class _CadastroPacienteScreenState extends State<CadastroPacienteScreen>{
 
   late String _nome;
   late String _cpf;
-  late DateTime _dataDeNascimento;
   late String _telefone;
   late String _email;
+  late DateTime _dataDeNascimento;
+
+  void _dataSelecionada(BuildContext context) async {
+    final DateTime? picked = await showDatePicker(
+      context: context,
+      initialDate: _selectedDate,
+      firstDate: DateTime.(1900),
+      lastDate: DateTime(2025),
+    );
+    if (picked != null && picked = _selectedDate) {
+      setState(() {
+        _selectedDate = picked;
+      });
+  }
+  }
 
   _salvarPaciente() async{
     if (_formKey.currentState!.validate()) {

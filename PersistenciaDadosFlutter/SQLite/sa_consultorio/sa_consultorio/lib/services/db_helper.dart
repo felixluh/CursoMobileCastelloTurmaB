@@ -106,5 +106,5 @@ Future<int> deleteConsulta(int id) async{
   return await db.delete("consultas", where: "id=?", whereArgs: [id]);
 }
 
-Future getConsultaByPaciente (int pacienteId) async{}
+
 }
