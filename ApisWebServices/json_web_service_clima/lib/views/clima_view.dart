@@ -54,7 +54,7 @@ class _ClimaViewState extends State<ClimaView> {
             SizedBox(height: 10),
             Divider(),
             if (_clima != null) ...[
-               Text("Cidade: ${_clima!.ciadade}"),
+               Text("Cidade: ${_clima!.cidade}"),
                Text("Temperatura: ${_clima!.temperatura} °C"),
                Text("Descrição: $_clima!.descricao")
             ] else if(_erro != null) ...[
