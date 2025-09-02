@@ -1,4 +1,4 @@
-import '../models/livro_model.dart';
+import 'package:biblioteca_app/models/usuario_model.dart';
 import '../services/api_service.dart';
 
 class UsuarioController {
@@ -6,30 +6,30 @@ class UsuarioController {
   //métodos
 
   //GET - All
-  Future<List<LivroModel>> fetchAll() async{
+  Future<List<UsuarioModel>> fetchAll() async{
     final list = await ApiService.getList("livros?_sort=titulo");//ordenando pelo nome A->Z
     //retorna a Lista de Usuários (Json) Convertida para Usuario Model(DART)
-    return list.map<LivroModel>((item)=>LivroModel.fromJson(item)).toList(); 
+    return list.map<UsuarioModel>((item)=>UsuarioModel.fromJson(item)).toList(); 
   }
 
   //GET - One
-  Future<LivroModel> fetchOne(String id) async{
+  Future<UsuarioModel> fetchOne(String id) async{
     final livro = await ApiService.getOne("livros", id);
-    return LivroModel.fromJson(livro);
+    return UsuarioModel.fromJson(livro);
   }
 
   //POST
-  Future<LivroModel> create(LivroModel l) async{
+  Future<UsuarioModel> create(UsuarioModel l) async{
     final created = await ApiService.post("livros", l.toJson());
     //adicionar o usuário e retorna o usuario adicionado
-    return LivroModel.fromJson(created);
+    return UsuarioModel.fromJson(created);
   }
 
   //PUT
-  Future<LivroModel> update(LivroModel l) async{
+  Future<UsuarioModel> update(UsuarioModel l) async{
     final updated = await ApiService.put("livros", l.toJson(), l.id!);
     //retorna o usuário atualizado
-    return LivroModel.fromJson(updated);
+    return UsuarioModel.fromJson(updated);
   }
 
   //DELETE
