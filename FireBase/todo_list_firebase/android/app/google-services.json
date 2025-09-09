@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "981757211267",
+    "project_id": "tudo-listcastellob",
+    "storage_bucket": "tudo-listcastellob.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981757211267:android:cfe89040ef5229367e21b6",
+        "android_client_info": {
+          "package_name": "com.example.todo_list_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqsRS5BNHwYS-DHZkSywnrrtnV9VyMQdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
