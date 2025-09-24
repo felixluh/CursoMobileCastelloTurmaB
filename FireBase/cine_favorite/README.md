@@ -3,7 +3,7 @@ Construir um Aplicativo do Zero - O CineFavorite permiteré criar uma conta e bu
 
 
 ## Objetivos
--Criar uma galeria Personalizada Por Usário de Filmes Favoritos
+- Criar uma galeria Personalizada Por Usário de Filmes Favoritos
 - Conectar o App com uma API( base de Dados) de Filmes
 - Permirtir a criação de contas para cada Usuários
 - Listar Filmes por palavras chaves
@@ -122,9 +122,10 @@ Construir um Aplicativo do Zero - O CineFavorite permiteré criar uma conta e bu
         E --> F[Tela de Favoritos]
         D --> G[não]
         G --> E
-        
+
     ```
 
 ## Prototipagem
+   - Link Figma: https://www.figma.com/proto/5FANFPHB5uh0jvGYFls1yD/Sem-t%C3%ADtulo?t=QNWhVciPusTBEVBo-1
 
 ## Codificação
