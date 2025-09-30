@@ -126,6 +126,6 @@ Construir um Aplicativo do Zero - O CineFavorite permiteré criar uma conta e bu
     ```
 
 ## Prototipagem
-   - Link Figma: https://www.figma.com/proto/5FANFPHB5uh0jvGYFls1yD/Sem-t%C3%ADtulo?t=QNWhVciPusTBEVBo-1
+   - Link Figma: https://www.figma.com/proto/5FANFPHB5uh0jvGYFls1yD/Sem-t%C3%ADtulo?node-id=0-1&t=jdfIcuHRtfChzCPV-1
 
 ## Codificação
