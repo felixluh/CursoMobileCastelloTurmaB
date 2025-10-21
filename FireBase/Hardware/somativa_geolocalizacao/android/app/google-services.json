@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401857527179",
+    "project_id": "somativageolocalizacao",
+    "storage_bucket": "somativageolocalizacao.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401857527179:android:e281a56bd0d89aa2c4838e",
+        "android_client_info": {
+          "package_name": "com.example.somativa_geolocalizacao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOe8aMhe8xQMy87kMYLEiNfXfOCSUvMXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
